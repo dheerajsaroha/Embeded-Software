@@ -1,0 +1,53 @@
+Grocery Store Management System Documentation
+
+Project Overview
+
+Introduction
+The Grocery Store Management System is a Python-based application designed for small grocery stores to manage inventory, generate bills, and handle online payments. The system supports functionalities including calculating the total amount, generating bills in PDF format, sharing bills, and processing online payments.
+
+Purpose of software
+The main purpose of the software is used for the embeded devices which are statics
+
+Features
+Inventory Management: Tracks and limits the number of items in stock.
+Bill Calculation: Computes the total amount for purchased items.
+PDF Bill Generation: Creates detailed bills in PDF format.
+Bill Sharing: Allows sharing of the bill via email or other communication channels.
+Online Payment: Facilitates secure online payment options.
+
+Installation and Setup
+Prerequisites
+Python 3.x
+Required libraries:
+reportlab for PDF generation
+requests for handling online payments (if applicable)
+smtplib for email functionalities (if applicable)
+[List any other dependencies or system requirements here]
+
+Usage
+
+Adding Items to Stock
+Navigate to the stock management section.
+Input the item details, including name, price, and quantity.
+Save the item to the inventory.
+Processing Transactions
+Add items to the cart.
+Confirm the purchase.
+The system calculates the total amount and generates a bill.
+The bill can be saved as a PDF, emailed, or printed.
+Generating and Sharing Bills
+After transaction, select the option to generate a PDF bill.
+Choose to share the bill via email or other methods as configured.
+Online Payment
+
+Select the online payment option at checkout.
+Follow the payment gateway instructions to complete the payment.
+
+
+Programmed by - Dheeraj
+Documented by - Dheeraj
+Date :- 31 Aug 2024
+
+
+
+
